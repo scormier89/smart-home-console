@@ -21,5 +21,6 @@ The system also has a fake “yearly update” that runs on January 1st at 1:00 
 You need Java 17+ and Maven installed.
 
 ```bash
+cd /appliance-control
 mvn compile
 java -cp target/classes com.smart.home.Main
