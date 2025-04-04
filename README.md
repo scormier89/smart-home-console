@@ -22,4 +22,4 @@ You need Java 17+ and Maven installed.
 
 ```bash
 mvn compile
-mvn exec:java -Dexec.mainClass="com.smart.home.Main"
+java -cp target/classes com.smart.home.Main
